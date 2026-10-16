@@ -1,0 +1,236 @@
+# https://www.toptal.com/developers/gitignore/api/windows,androidstudio,android,kotlin,gradle によって作成されました
+# https://www.toptal.com/developers/gitignore?templates=windows,androidstudio,android,kotlin,gradle で編集してください
+
+### Android ###
+# Gradleファイル
+.gradle/
+建てる/
+
+# ローカル設定ファイル（SDKパスなど）
+ローカルプロパティ
+
+# ログ/OSファイル
+*。ログ
+
+# Android Studioで生成されたファイルとフォルダ
+キャプチャ/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+
+# IntelliJ
+*.iml
+。アイデア/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# キーストアファイル
+*.jks
+*.キーストア
+
+# Googleサービス（例：APIまたはFirebase）
+google-services.json
+
+# Androidプロファイリング
+*.hprof
+
+### Android パッチ ###
+gen-external-apklibs
+
+# .externalNativeBuild ディレクトリの置き換えが導入されました
+# Android Studio 3.5 を使用。
+
+### コトリン ###
+# コンパイル済みクラスファイル
+*。クラス
+
+# ログファイル
+
+# BlueJファイル
+*.ctxt
+
+# Java (J2ME) 用モバイルツール
+.mtj.tmp/
+
+# パッケージファイル #
+*.jar
+*。戦争
+*.nar
+*。耳
+*。ジップ
+*.tar.gz
+*.rar
+
+# 仮想マシンのクラッシュログについては、http://www.java.com/en/download/help/error_hotspot.xml を参照してください。
+hs_err_pid*
+リプレイPID*
+
+### Windows ###
+# Windowsのサムネイルキャッシュファイル
+サムズ.db
+Thumbs.db:暗号化可能
+ehthumbs.db
+ehthumbs_vista.db
+
+# ダンプファイル
+*.stackump
+
+# フォルダー設定ファイル
+[Dd]デスクトップ.ini
+
+# ファイル共有で使用されるごみ箱
+$RECYCLE.BIN/
+
+# Windowsインストーラーファイル
+*。タクシー
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windowsショートカット
+*.lnk
+
+### グラドル ###
+.gradle
+**/建てる/
+!src/**/build/
+
+# Gradle GUIの設定を無視する
+gradle-app.setting
+
+# Gradleラッパーjarファイルを無視しないようにする（.jarファイルは通常無視される）
+!gradle-wrapper.jar
+
+# Gradleラッパーのプロパティを無視しないようにする
+!gradle-wrapper.properties
+
+# プロジェクトのキャッシュ
+.gradletasknamecache
+
+# Eclipse Gradleプラグインによって生成されたファイル
+# Eclipse Core
+。プロジェクト
+# JDT固有（Eclipse Java開発ツール）
+.classpath
+
+### Gradle パッチ ###
+# Javaヒープダンプ
+
+### AndroidStudio ###
+# Android Studio を使用した Android 開発で無視するファイルを指定します。
+
+# ビルド済みアプリケーションファイル
+*.ap_
+*.aab
+
+# ART/Dalvik VM 用のファイル
+*.dex
+
+# Javaクラスファイル
+
+# 生成されたファイル
+bin/
+gen/
+外/
+
+# Gradleファイル
+
+# ファイルの署名
+.signing/
+
+# ローカル設定ファイル（SDKパスなど）
+
+# Eclipseによって生成されたProguardフォルダ
+プロガード/
+
+# ログファイル
+
+# Android Studio
+/*/建てる/
+/*/local.properties
+/*/外
+/*/*/建てる
+/*/*/生産
+.ナビゲーション/
+*.ipr
+*~
+*.swp
+
+# キーストアファイル
+
+# Googleサービス（例：APIまたはFirebase）
+# google-services.json
+
+# Androidパッチ
+
+# Android Studio 2.2以降で生成される外部ネイティブビルドフォルダ
+.externalNativeBuild
+
+# NDK
+オブジェクト/
+
+# IntelliJ IDEA
+*.iws
+/外/
+
+# ユーザー固有の設定
+.idea/caches/
+.idea/libraries/
+.idea/shelf/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/.name
+.idea/compiler.xml
+.idea/copyright/profiles_settings.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/datasources.xml
+.idea/dataSources.ids
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/assetWizardSettings.xml
+.idea/gradle.xml
+.idea/jarRepositories.xml
+.idea/navEditor.xml
+
+# 従来のEclipseプロジェクトファイル
+.cproject
+。設定/
+
+# Java (J2ME) 用モバイルツール
+
+# パッケージファイル #
+
+# 仮想マシンのクラッシュログ（参考：http://www.java.com/en/download/help/error_hotspot.xml）
+
+## プラグイン固有のファイル:
+
+# mpeltonen/sbt-idea プラグイン
+.idea_modules/
+
+# JIRAプラグイン
+atlassian-ide-plugin.xml
+
+# Mongo Explorer プラグイン
+.idea/mongoSettings.xml
+
+# Crashlyticsプラグイン（Android StudioおよびIntelliJ用）
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+生地の特性
+
+### AndroidStudio パッチ ###
+
+!/gradle/wrapper/gradle-wrapper.jar
+
+# https://www.toptal.com/developers/gitignore/api/windows,androidstudio,android,kotlin,gradle の終了
